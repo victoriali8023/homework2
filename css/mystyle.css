@@ -1,0 +1,73 @@
+      body{
+        font-family: "Lucida Grande", sans-serif;
+        color: white;
+        background-color: black;
+      }
+      h1{
+        font-size: 64px;
+        text-align: center;
+      }
+      h2{
+        font-size: 32px;
+        filter: drop-shadow(4px 4px 2px black);
+        /*Header 2 is 32px, with “black” drop shadow that is offset 4px horizontally, 4px
+vertically, and 2px blur*/
+      }
+      p{
+        font-size: 16px;
+        padding-top: 15px;
+        /*Paragraphs are 16px with 15px padding on the top only*/
+      }
+      img{
+        display: block;
+        width: 550px;
+        margin: auto;
+        /*All images are on their own line
+        All images are centered
+        All images are 550px wide with proper aspect ratio (they are not warped or
+stretched)*/
+      }
+      div{
+        font-size: 100px;
+        height: auto;
+        padding: 30px 30px;
+        /*All divs must be at least 100px tall (but will automatically be taller if needed) with 30px
+padding on all sides.*/
+      }
+      #red{
+        background-color: red;
+        text-align: right;
+        /*Background color is “red”
+        Text is aligned on the right side*/
+      }
+      #blue{
+        background-color: blue;
+        text-align: left;
+        /*Background color is “blue”
+        Text is aligned on the left side*/
+      }
+      #yellow{
+        background-color: yellow;
+        text-align: right;
+        color: black;
+        /*Background color is “yellow”
+        Text is aligned on the right side
+        Header 2 and paragraph text is “black”
+        Header 2 drop shadow is “grey” with the same parameters as above*/
+      }
+      #yellow h2{
+        color: black;
+        filter: drop-shadow(4px 4px 2px grey);
+      }
+      #green{
+        background-color: green;
+        text-align: left;
+        /*Background color is “green”
+        Text is aligned on the left side*/
+      }
+      footer{
+        text-align: center;
+        padding-bottom: 15px;
+        /*Footer text is centered with 15px padding on the bottom only*/
+      }
+      
